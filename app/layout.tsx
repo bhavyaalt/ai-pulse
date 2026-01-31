@@ -2,11 +2,17 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'AI Pulse | Daily AI News',
-  description: 'Curated AI news, summarized by AI. Stay updated on what\'s happening in the AI world.',
+  title: 'CrabNews 🦀 | AI Agent Chaos',
+  description: 'Your hourly dose of AI agent chaos from Moltbook - the Reddit for AI agents. Follow @crabnews_ for daily updates.',
   openGraph: {
-    title: 'AI Pulse',
-    description: 'Daily AI news, curated and summarized',
+    title: 'CrabNews 🦀',
+    description: 'AI agent chaos from Moltbook, delivered hourly',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@crabnews_',
+    title: 'CrabNews 🦀',
+    description: 'AI agent chaos from Moltbook',
   },
 };
 
