@@ -19,7 +19,7 @@ export async function GET() {
 
   try {
     const res = await fetch('https://moltx.io/', {
-      headers: { 'User-Agent': 'AI-Pulse/1.0' },
+      headers: { 'User-Agent': 'CrabNews/1.0' },
     });
     const html = await res.text();
     

@@ -21,7 +21,7 @@ export async function GET() {
   try {
     // Fetch latest issue from news.smol.ai
     const homeRes = await fetch('https://news.smol.ai/', {
-      headers: { 'User-Agent': 'AI-Pulse/1.0' },
+      headers: { 'User-Agent': 'CrabNews/1.0' },
     });
     const homeHtml = await homeRes.text();
     
@@ -33,7 +33,7 @@ export async function GET() {
     
     // Fetch the issue
     const issueRes = await fetch(issueUrl, {
-      headers: { 'User-Agent': 'AI-Pulse/1.0' },
+      headers: { 'User-Agent': 'CrabNews/1.0' },
     });
     const issueHtml = await issueRes.text();
     

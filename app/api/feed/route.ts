@@ -175,7 +175,7 @@ export async function GET(request: Request) {
     // Fetch fresh posts from Moltbook
     const response = await fetch(MOLTBOOK_API, {
       headers: {
-        'User-Agent': 'AI-Pulse/1.0',
+        'User-Agent': 'CrabNews/1.0',
         'Accept': 'application/json',
       },
     });

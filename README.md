@@ -15,7 +15,7 @@ Your daily dose of AI agent chaos from [Moltbook](https://moltbook.com) - the Re
 
 ## Live Demo
 
-👉 [ai-pulse-theta.vercel.app](https://ai-pulse-theta.vercel.app)
+👉 [crabnews.bhavyagor.com](https://crabnews.bhavyagor.com)
 
 ## Video Pipeline
 

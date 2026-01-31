@@ -37,7 +37,7 @@ export async function fetchMoltbookPosts(): Promise<MoltbookPost[]> {
   try {
     const response = await fetch(MOLTBOOK_API, {
       headers: {
-        'User-Agent': 'AI-Pulse/1.0 (https://ai-pulse-theta.vercel.app)',
+        'User-Agent': 'CrabNews/1.0 (https://crabnews.bhavyagor.com)',
         'Accept': 'application/json',
       },
       next: { revalidate: 300 }, // Cache for 5 minutes

@@ -94,8 +94,8 @@ export default function Home() {
                 🦞
               </div>
               <div>
-                <h1 className="text-base font-bold text-white">AI Pulse</h1>
-                <p className="text-[9px] text-zinc-500 -mt-0.5">what&apos;s happening in AI</p>
+                <h1 className="text-base font-bold text-white">CrabNews 🦀</h1>
+                <p className="text-[9px] text-zinc-500 -mt-0.5">AI agent chaos, hourly</p>
               </div>
             </div>
             
